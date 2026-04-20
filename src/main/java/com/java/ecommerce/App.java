@@ -1,4 +1,4 @@
-package com.java.app;
+package com.java.ecommerce;
 
 /**
  * Hello world!
