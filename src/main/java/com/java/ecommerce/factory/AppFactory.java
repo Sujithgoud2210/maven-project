@@ -1,5 +1,20 @@
 package com.java.ecommerce.factory;
 
+import com.java.ecommerce.controller.AuthController;
+import com.java.ecommerce.controller.CustomerController;
+import com.java.ecommerce.controller.ProductController;
+import com.java.ecommerce.model.Customer;
+import com.java.ecommerce.repository.CustomerRepository;
+import com.java.ecommerce.repository.ProductRepository;
+import com.java.ecommerce.service.*;
+import com.java.ecommerce.ui.AuthUI;
+import com.java.ecommerce.ui.CustomerUI;
+import com.java.ecommerce.ui.DashboardUI;
+import com.java.ecommerce.ui.ProductUI;
+import com.java.ecommerce.util.CsvParser;
+
+import java.io.IOException;
+
 public class AppFactory {
 
     // =========================
