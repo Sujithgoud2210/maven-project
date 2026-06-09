@@ -10,7 +10,7 @@ import java.util.Objects;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@Builderg
 public class Product {
     private int id;
     private String name;
